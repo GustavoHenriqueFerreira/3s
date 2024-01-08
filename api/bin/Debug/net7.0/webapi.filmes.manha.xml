@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapi.filmes.manha</name>
+    </assembly>
+    <members>
+        <member name="T:webapi.filmes.manha.Domains.ReservaDomain">
+            <summary>
+            Classe que representa a entidade(tabela) reserva
+            </summary>
+        </member>
+        <member name="T:webapi.filmes.manha.Domains.SalaDomain">
+            <summary>
+            Classe que representa a entidade(tabela) sala
+            </summary>
+        </member>
+        <member name="T:webapi.filmes.manha.Interfaces.ISalaRepository">
+            <summary>
+            Interface responsável pelo repositório SalaRepository
+            Definir os métodos que serão implementados pelo SalaRepository
+            </summary>
+        </member>
+        <member name="M:webapi.filmes.manha.Repositories.SalaRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um sala através do seu id
+            </summary>
+            <param name="id">id do sala que será buscado</param>
+            <returns>Um sala buscado ou null caso não seja encontrado</returns>
+        </member>
+    </members>
+</doc>
